@@ -1,0 +1,24 @@
+
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+
+<sly data-sly-call="${clientlib.all@ categories='clbamazon'}"/>
+
+<div data-sly-use.banner="com.aem.geeks.core.models.Banner"></div>
+
+<div id="sitebanner-template" class="">
+	
+<div id="hero-image-container">
+
+		<div class="image-as-background" id="imageAsBackground" data-image-url="${banner.image}"
+        style="background-image: url('/content/dam/morganamazon/banner.jpg');"></div>
+
+    <div class="hero-image-content black-color wrap-text" id="heroImageContent">
+         	<h3>${banner.title} </h3>
+       	    <p>${banner.description} </p>
+
+	</div>
+</div>
+
+</div>
+
+

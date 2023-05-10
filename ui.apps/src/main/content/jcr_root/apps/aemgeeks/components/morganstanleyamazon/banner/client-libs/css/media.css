@@ -1,0 +1,383 @@
+/* Media queries goes here */
+
+/*Extra large screen*/
+@media only screen and (min-width: 1920px) {
+    .container{
+        width:1620px;
+    }
+}
+
+/*Large screen*/
+@media only screen and (min-width: 1200px) and (max-width: 1919px) {
+    .stockplancontent ul li{
+        line-height: normal;
+        padding-bottom: 20px;
+    }
+    .stockplancontent {
+        margin-bottom: 60px;
+    }
+    .comp-six {
+        padding:50px 30px;
+    }
+    #landingpage-hero .componentheader{
+        font-size:40px;
+        padding:72px 0px 20px 0px;
+        margin:0px;
+    }
+    .panel-title h3{
+        font-size:27px;
+    }
+    .footertext-two{
+        font-size:12px;
+    }
+     #swap-container-two img {
+        
+        height:auto;
+        width:100%;    
+        
+        }	
+.comp-three p {
+ min-height: 265px;
+
+    }
+
+
+
+}
+
+/*Medium screen*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .stockplancontent ul li{
+        line-height: normal;
+        padding-bottom: 10px;
+        font-size: 17px;
+    }
+    .stockplancontent {
+        margin-bottom: 60px;
+    }
+    .comp-six {
+        padding:50px 30px;
+    }
+     #landingpage-hero .componentheader{
+        font-size:32px;
+        padding:10px 0px;
+    }
+    .panel-title h3{
+        font-size:23px;
+    }
+    .footertext-two{
+        font-size:12px;
+    }
+ #swap-container-two img {
+    
+    height:auto;
+    width:100%;    
+    
+    }	
+
+.comp-three p {
+ min-height: 335px;
+
+    }
+
+
+.comp-three h3 {
+font-size: 28px;
+}
+}
+
+/* Small screen - tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .mslogo{
+        padding: 13px 0 13px 20px;
+    }
+    .toprightnav{
+        padding:16px 20px 0px 0px
+    }
+    .partner-logo {
+        padding: 20px 0px 20px 20px;
+    }
+    .lang-btn-wrap {
+        padding: 0px 20px;
+       padding-bottom: 17px;
+
+    }
+    .herobanner h1{
+        padding: 203px 0px 0px 50px;
+    }
+    .herobanner p{
+        padding: 16px 0px 0px 50px;
+    }
+    .subnavwrap{
+        padding: 30px 0px 40px 50px;
+    }
+	#landingpage-hero .componentheader{
+		padding:72px 64px 38px 64px;
+    	line-height: 57px;
+    }
+	#swap-container-one .componentheader{
+		padding:72px 0px 38px 0px;
+    	line-height: 57px;
+    }
+    .stockplancontent ul li{
+        line-height:49px;
+    }
+    .stockplancontent {
+        margin-bottom: 60px;
+           padding-left: 50px;
+    }
+    .padleft0{
+        padding-right:0px;
+    }
+    .comp-six{
+        padding:0px;
+    }
+    #swap-container-one{
+        padding:0px 50px 50px 50px;
+    }
+    #swap-container-two{
+        padding:0px;
+    }
+	.lp-modal .modal-body{
+		padding:20px;
+    }
+    .lp-modal ul{
+        padding:0px 20px;
+    }
+    .mobpad{
+        padding:20px 0px 0px 0px;
+    }
+    .download-arrow{
+        padding-top:16px;
+    }
+    .marleft0{
+        margin-left:0px;
+    }
+
+	.chooseMSBtn{
+
+    margin:32px 0px 24px 0px;
+        } 
+
+
+
+    .bodybg{
+    background:#f2f2f2;
+    margin-top:0px;
+   }
+
+#swap-container-two img {
+    height: 100%;
+    width: 100%;
+}
+
+.comp-three {
+  padding: 40px 85px;
+    }
+
+    .comp-three p {
+ min-height: 0px;
+    }
+
+.carousel-inner {
+    height: 540px;
+}
+.item .componentheader {
+    padding-bottom: 40px !important;
+       height: 200px;
+}
+
+
+}
+
+/* Extra small screen - mobile */
+@media only screen and (max-width: 767px) {
+
+     .bodybg{
+    background:#f2f2f2;
+    margin-top: 48px;
+   }
+    .mslogo{
+        padding: 10px 0 10px 10px;
+    }
+    .mslogo img{
+        width:140px;
+        height:auto;
+    }
+    .toprightnav{
+        padding:10px 10px 0px 0px
+    }
+    .toprightnav ul li, .toprightnav ul li a {
+        margin-left:0px;
+    }
+    .toprightnav ul li a{
+        font-family: "Karla-Regular", Helvetica, Arial, serif;
+        font-size: 13px;
+    }
+    span.externalurl {
+        background-image: url(../images/spritesheet.png);
+        background-position: -390px -251px;
+        width: 10px;
+        height: 10px;
+    }
+    .partner-logo {
+        padding: 15px 0px 0px 0px;
+        text-align: center;
+    }
+    .partner-logo img {
+        width:300px;
+        height:auto;
+    }
+    .lang-btn-wrap {
+         padding: 0px 128px 20px 0px;
+        text-align: center;
+    }
+     #landingpage-hero .heightextend {
+        background:no-repeat top -65px right -191px;
+        height: 437px !important;
+    	text-align:center;
+    }
+    .herobanner h1 {
+        padding: 100px 0px 0px 0px;
+        font-size: 48px;
+        line-height: normal;
+        text-align: center;
+    }
+    .herobanner p {
+        padding: 20px 0px;
+        text-align: center;
+    }
+    .stickynav{
+        top:105px;
+    }
+    .subnavwrap{
+        padding: 10px 10px 20px 10px;
+    }
+    .subnavwrap ul li{
+        padding-right: 9px;
+    }
+    .subnavwrap ul li a{
+        font-size:13px;
+        letter-spacing:0px;
+    }
+    .subnavwrap ul li a:hover, .subnavwrap ul li a.active{
+        padding-bottom:8px;
+    }
+    #landingpage-hero .componentheader{
+        font-size: 35px !important;
+        line-height: 40px!important;
+        padding: 10px 0px;
+        width: 90%;
+        margin: 20px auto;
+        text-align:center !important;
+    }
+    .stockplancontent ul li{
+        font-size: 16px;
+        line-height: 25px;
+        padding-bottom: 14px;
+    }
+    .stockplancontent {
+        margin-bottom: 40px;
+        margin-top:20px;
+    padding-left: 50px;
+    }
+    .carousel-inner p{
+        font-size:16px;
+        line-height:24px;
+    }
+    .carousel-control.right{
+       right: 27px;
+    }
+    .carousel-control.left{
+        left: 0px;
+    }
+    .padleft0{
+        padding-right:0px;
+    }
+    .comp-six{
+        padding:0px;
+    }
+    .panel-title h3{
+        font-family: "Karla-Bold", Helvetica, Arial, serif;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .arrow-wrap{
+        padding-top:0px;
+    }
+    .panel-body p{
+        margin-bottom:15px;
+    }
+    .blacktext-two{
+        font-size:15px;
+    }
+    .blacktext-one, .bluetext-one{
+        font-size:15px;
+    }
+    .footer-wrap{
+        margin-top:0px;
+    }
+    .blacktext-three{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    #swap-container-one{
+        padding:0px 20px 50px 20px;
+    }
+    #swap-container-two{
+        padding:0px;
+    }
+	.lp-modal .modal-body{
+		padding:0px;
+     }
+    .lp-modal ul{
+        padding:0px 20px;
+    }
+    .mobpad{
+        padding:20px 0px 0px 0px;
+    }
+    
+    .download-arrow{
+        padding-top:16px;
+    }
+    .lp-modal .modal-footer{
+        padding:0px 6% 6% 6%;
+    }
+
+	.chooseMSBtn{
+        margin:32px 0px 16px 0px;
+     } 
+
+	.ourgroup-banner{
+		margin-bottom:20px;
+	}
+#swap-container-two img {
+
+    height:auto;
+    width:100%;    
+    
+    }	
+
+.comp-three p {
+ min-height: 0px;
+    }
+
+
+.video iframe{
+width: 100% !important;
+height: 370px !important;
+
+}
+
+.item .componentheader {
+    padding-bottom: 0px !important;
+        height: 80px;
+}
+
+.carousel-inner {
+    height: 499px;
+}
+
+}
+
+
