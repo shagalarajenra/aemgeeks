@@ -1,0 +1,31 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+
+
+    <div data-sly-use.values="com.aem.geeks.core.models.Values"></div>
+
+
+    <section id="deliverd">
+        <div class="deliver">
+            <div class="cmncls">  <h1 class="hdr"><span class="spn">${values.title}</span><span class="spns">${values.description}</span></h1> </div>
+
+        </div>
+        <div class="valuess">
+            <div class="vcntnr">
+                <div class="values">
+                    <div data-sly-list.item="${values.valueswithmap}">
+                        <div class="valu">
+                            <div class="vimg"><img src="${item.image}" alt="Workforce"><span></span></div>
+                            <div class="vtxt">
+                                <h3>${item.numtitle}</h3>
+                                <p>${item.info}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+

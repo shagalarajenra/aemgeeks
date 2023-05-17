@@ -14,7 +14,7 @@
                     <title
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="kittu"
+                        fieldLabel="Title"
                         name="./title"/>
                     <description
                         jcr:primaryType="nt:unstructured"

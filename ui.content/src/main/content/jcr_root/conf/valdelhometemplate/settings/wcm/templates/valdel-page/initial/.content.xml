@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:template="/conf/valdelhometemplate/settings/wcm/templates/valdel-page"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="aemgeeks/components/morganstanleyamazon/pagekittu">
+        <root
+            jcr:lastModified="{Date}2023-05-15T13:42:24.169+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <footer_370148564
+                jcr:created="{Date}2023-05-15T13:56:13.350+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-05-15T13:57:50.813+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemgeeks/components/Valdel/footer"/>
+            <responsivegrid
+                jcr:created="{Date}2023-05-15T14:05:42.400+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-05-15T14:08:15.396+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,38 @@
+
+<div data-sly-use.header123="com.aem.geeks.core.models.Header">
+
+    <link rel="stylesheet" href="http://www.valdel.com/gocart/themes/valdel/assets/css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="http://www.valdel.com/gocart/themes/valdel/assets/css/main.css" type="text/css">
+
+
+    <div id="header" class="">
+        <div class="headph">
+            <header>
+                <div class="header clearfix">
+                    <div class="logo"><h1><a href="http://www.valdel.com/" ><img src="${header123.logoPath}" alt="${properties.altText}"></a></h1></div>
+                    <div class="phmenu">
+                        <div class="mnubtn clearfix">
+                            <a href="#" title="Menu" class="moblnk"><img src="http://www.valdel.com/gocart/themes/valdel/assets/img/mnu---Copy.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <nav>
+                <div id="mainav">
+                    <ul id="head-nav" data-sly-list.child="${header123.pageDetails.listChildren}">
+                        <li class="hasub "><a href="#">${child.title}</a>
+                            <div class="submenu s${child.index}" style="display: none;">
+                                <div class="hemenuph">
+                                    <div class="prodmnublk">
+                                        <ul class="smnu" data-sly-list.child2="${child.listChildren}">
+                                            <li class="conloc"><a href="${child2.path}">${child2.title}</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+
